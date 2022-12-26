@@ -15,7 +15,7 @@ AutoCaptionBot = pyrogram.Client(
 start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
-<b>All you have to do is add me to your channel and I will show you my power</b>
+<b>All you have to do is add me to your channel and I will change captions of new posts into its file name</b>
 <b>@shadow_linkz</b>"""
 
 about_message = """
