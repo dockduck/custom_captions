@@ -16,14 +16,14 @@ start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
 <b>All you have to do is add me to your channel and I will show you my power</b>
-<b>@GreyMatter_Bots</b>"""
+<b>@shadow_linkz</b>"""
 
 about_message = """
 <b>• Name : [AutoCaption](t.me/{username})</b>
 <b>• Developer : [GreyMatter](https://t.me/GreyMatter_Owner)
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
-<b>• Updates : <a href=https://t.me/GreyMatter_Bots>Click Here</a></b>
+<b>• Updates : <a href=https://t.me/night_shadowz>Click Here</a></b>
 <b>• Source Code : <a href=https://github.com/Greymattersbot/AutoCaption-BoT>Click Here</a></b>"""
 
 @AutoCaptionBot.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
@@ -73,7 +73,7 @@ def get_file_details(update: pyrogram.types.Message):
 def start_buttons(bot, update):
   bot = bot.get_me()
   buttons = [[
-   pyrogram.types.InlineKeyboardButton("Updates", url="t.me/GreyMatter_Bots"),
+   pyrogram.types.InlineKeyboardButton("Updates", url="t.me/shadow_linkz"),
    pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
    ],[
    pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
